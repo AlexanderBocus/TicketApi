@@ -1,0 +1,11 @@
+@TicketApi_HostAddress = http://localhost:5010
+
+GET {{TicketApi_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{TicketApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
